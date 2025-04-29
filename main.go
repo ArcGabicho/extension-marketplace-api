@@ -54,7 +54,7 @@ func securityMiddleware() gin.HandlerFunc {
 		}
 
 		// 2. CORS Estricto (permite solo tu frontend)
-		c.Header("Access-Control-Allow-Origin", "https://localhost:4321/") // Cambia esto
+		c.Header("Access-Control-Allow-Origin", "https://extension-marketplace-app.pages.dev/") // Cambia esto
 		c.Header("Access-Control-Allow-Methods", "GET")
 
 		c.Next()
