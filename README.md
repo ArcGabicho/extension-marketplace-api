@@ -2,8 +2,6 @@
 
 API RESTful construida en Go y Gin para devolver un JSON de las 60 extensiones más populares de Google Chrome.
 
-## Screenshots
-
 ![App Screenshot](https://i.imgur.com/IfzSiae.png)
 
 ## API RESTful 
